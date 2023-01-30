@@ -1,0 +1,458 @@
+/* RESET  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* FONTS  
+font-family: 'Courgette', cursive;
+font-family: 'Noto Sans', sans-serif;
+*/
+h1, h2, h3, h4 {
+  font-family: 'Courgette', cursive;
+}
+p, a {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  text-align: center;
+  list-style-type: none;
+}
+/* BACKGROUND-COLOR */
+.bg-1 {
+  background-color: antiquewhite;
+}
+.bg-2 {
+  background-color: white;
+}
+.bg-3 {
+  background-color: black;
+}
+.bg-4 {
+  background-color:#9f890d;
+}
+
+section a {
+  color: #9f890d;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+li a {
+  text-decoration: none;
+  color: #9f890d;
+}
+
+@media screen and (max-width: 375px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 10px;
+    text-align: center;
+  }
+  .containerBot, .containerTop, .container, .containerAutre, .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .containerTop img {
+    width: 100%;
+  }
+  .container img {
+    width: 100%;
+  }
+  .containerAutre img {
+    width: 50px;
+  }
+  .blocUn {
+    margin: 0  20px 20px 20px;
+  }
+  .blocDeux {
+    max-width: 375px;
+  }
+  .blocAutre {
+    border: 1px solid #9f890d;
+    margin: 5px;
+  }
+  .listeReseaux {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  #reseaux img {
+    width: 20px;
+  }
+  #footerRight {
+    margin-bottom: 10px;
+  }
+  .footerLangue {
+    margin-bottom: 25px;
+  }
+  #reservation button {
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #9f890d;
+    border-radius: 5px;
+    color: #9f890d;
+  }
+  .containerReservation {
+    position: fixed;
+    overflow: hidden;
+    bottom:0;
+    width: 100%;
+    padding: 5px 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 10px;
+    text-align: center;
+  }
+  .containerBot, .containerTop, .container, .containerAutre, .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .containerTop img {
+    width: 100%;
+  }
+  .container img {
+    width: 100%;
+  }
+  .containerAutre img {
+    width: 50px;
+  }
+  .blocUn {
+    margin: 0  20px 20px 20px;
+  }
+  .blocDeux {
+    max-width: 425px;
+  }
+  .blocAutre {
+    border: 1px solid #9f890d;
+    margin: 5px;
+  }
+  .listeReseaux {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  #reseaux img {
+    width: 20px;
+  }
+  #footerRight {
+    margin-bottom: 10px;
+  }
+  .footerLangue {
+    margin-bottom: 25px;
+  }
+  #reservation button {
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #9f890d;
+    border-radius: 5px;
+    color: #9f890d;
+  }
+  .containerReservation {
+    position: fixed;
+    overflow: hidden;
+    bottom:0;
+    width: 100%;
+    padding: 5px 0;
+  }
+}
+@media screen and (min-width:426px) and (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 10px;
+    text-align: center;
+  }
+  .containerTop, .container, .containerAutre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .containerBot {
+    padding-bottom: 30px;
+  }
+  .containerTop img {
+    width: 100%;
+  }
+  .container img {
+    width: 100%;
+  }
+  .containerAutre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .containerAutre img {
+    width: 50px;
+  }
+  .blocUn {
+    margin: 0  20px 20px 20px;
+  }
+  .blocDeux {
+    max-width: 425px;
+    margin: auto;
+  }
+  .blocAutre {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #9f890d;
+    margin: 5px;
+  }
+  .listeReseaux {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  #reseaux img {
+    width: 40px;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #footerRight {
+    margin-bottom: 10px;
+  }
+  .footerLangue {
+    margin-bottom: 25px;
+  }
+  #reservation button {
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #9f890d;
+    border-radius: 5px;
+    color: #9f890d;
+  }
+  .containerReservation {
+    position: fixed;
+    overflow: hidden;
+    bottom:0;
+    width: 100%;
+    padding: 5px 0;
+  }
+}
+@media screen and (min-width:769px) and (max-width: 1024px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 10px;
+    text-align: center;
+  }
+  .container, .containerAutre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .containerBot {
+    padding-bottom: 30px;
+  }  
+  .container img {
+    width: 100%;
+  }
+  .containerReverse {
+    flex-direction: row-reverse;
+  }
+  .containerAutre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .containerAutre img {
+    width: 50px;
+  }
+  .blocUn {
+    margin: 0  20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .blocDeux {
+    max-width: 425px;
+    margin: auto;
+  }
+  .blocAutre {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #9f890d;
+    margin: 5px;
+  }
+  .listeReseaux {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  #reseaux {
+    width: 600px;
+    margin: auto;
+  }
+  #reseaux img {
+    width: 20px;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #footerRight {
+    margin-bottom: 10px;
+  }
+  .footerLangue {
+    margin-bottom: 25px;
+  }
+  #reservation button {
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #9f890d;
+    border-radius: 5px;
+    color: #9f890d;
+  }
+  .containerReservation {
+    position: fixed;
+    overflow: hidden;
+    bottom:0;
+    width: 100%;
+    padding: 5px 0;
+  }
+}
+@media screen and (min-width:1025px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 10px;
+    text-align: center;
+  }
+  .container, .containerAutre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .containerBot {
+    padding-bottom: 30px;
+  }
+  .container img {
+    width: 100%;
+  }
+  .containerReverse {
+    flex-direction: row-reverse;
+  }
+  .containerAutre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .containerAutre img {
+    width: 50px;
+  }
+  .blocUn {
+    /* margin: 0  20px 20px 20px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    border: 1px solid #9f890d;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .blocDeux {
+    max-width: 425px;
+    margin: auto;
+  }
+  .blocDeux img {
+    border: 2px solid #9f890d;
+  }
+  .blocAutre {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #9f890d;
+    margin: 5px;
+  }
+  .listeReseaux {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  #reseaux {
+    width: 600px;
+    margin: auto;
+  }
+  #reseaux img {
+    width: 20px;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #footerRight {
+    margin-bottom: 10px;
+  }
+  .footerLangue {
+    margin-bottom: 25px;
+  }
+  #reservation button {
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #9f890d;
+    border-radius: 5px;
+    color: #9f890d;
+  }
+  .containerReservation {
+    position: fixed;
+    overflow: hidden;
+    bottom:0;
+    width: 100%;
+    padding: 5px 0;
+  }
+}
+
