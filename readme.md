@@ -7,7 +7,7 @@ Objectifs :
 ! Mettre en ligne un site web professionnel
 
 
-Présenation:
+Présentation:
 L'Hôtel CHAMBORD ***** est un hôtel de grand standing venant de s'implanter à Paris il y a un mois.
 Les 3 points forts de l'hôtel résident en ses chambres haut de gamme, la qualité de son restaurant ainsi que de son service spa.
 Les objectifs attendus sont :
@@ -26,6 +26,7 @@ Le client ne fournit pas de maquette graphique ou visuels : logo, images, photos
 « carte blanche » sur l’aspect graphique des autres pages. Il ne s'agit pas forcément d'un scénario éloigné d’une situation réelle, il arrive parfois qu’un client commande un site
 à plusieurs prestataires et que son attente repose sur la force de proposition des différentes mises en forme afin qu’il en soit séduit.
 Le site doit être hébergé et mis en ligne pour la présentation du projet.
-Référencement
+
+Référencement:
 Le référencement et le positionnement d’un site est d’une importance cruciale pour attirer une bonne audience. Les principes et règles de métier pour atteindre cet objectif
 devront être mis en oeuvre dès la conception du portail.
