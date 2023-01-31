@@ -14,11 +14,15 @@ body {
 font-family: 'Courgette', cursive;
 font-family: 'Noto Sans', sans-serif;
 */
-h1, h2, h3, h4 {
-  font-family: 'Courgette', cursive;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Courgette", cursive;
 }
-p, a {
-  font-family: 'Noto Sans', sans-serif;
+p,
+a {
+  font-family: "Noto Sans", sans-serif;
 }
 
 /* BACKGROUND-COLOR ET FONT COLOR */
@@ -32,7 +36,7 @@ p, a {
   background-color: black;
 }
 .bg-4 {
-  background-color:#9f890d;
+  background-color: #9f890d;
 }
 span {
   color: #9f890d;
@@ -69,7 +73,11 @@ li a {
     margin: 10px;
     text-align: center;
   }
-  .containerBot, .containerTop, .container, .containerAutre, .footerContainer {
+  .containerBot,
+  .containerTop,
+  .container,
+  .containerAutre,
+  .footerContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -86,10 +94,10 @@ li a {
     width: 50px;
   }
   .blocUn {
-    margin: 0  20px 20px 20px;
+    margin: 0 20px 20px 20px;
   }
   .blocForm {
-    margin: 0  20px 20px 20px;
+    margin: 0 20px 20px 20px;
     background-color: white;
     border: 2px solid #9f890d;
     display: flex;
@@ -127,7 +135,7 @@ li a {
   .containerReservation {
     position: fixed;
     overflow: hidden;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     padding: 5px 0;
   }
@@ -142,7 +150,11 @@ li a {
     margin: 10px;
     text-align: center;
   }
-  .containerBot, .containerTop, .container, .containerAutre, .footerContainer {
+  .containerBot,
+  .containerTop,
+  .container,
+  .containerAutre,
+  .footerContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -159,7 +171,7 @@ li a {
     width: 50px;
   }
   .blocUn {
-    margin: 0  20px 20px 20px;
+    margin: 0 20px 20px 20px;
   }
   .blocForm {
     margin: 0 auto 20px auto;
@@ -206,12 +218,12 @@ li a {
   .containerReservation {
     position: fixed;
     overflow: hidden;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     padding: 5px 0;
   }
 }
-@media screen and (min-width:426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   h1,
   h2,
   h3,
@@ -221,7 +233,9 @@ li a {
     margin: 10px;
     text-align: center;
   }
-  .containerTop, .container, .containerAutre {
+  .containerTop,
+  .container,
+  .containerAutre {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -249,7 +263,7 @@ li a {
     width: 50px;
   }
   .blocUn {
-    margin: 0  20px 20px 20px;
+    margin: 0 20px 20px 20px;
   }
   .blocForm {
     margin: 0 auto 20px auto;
@@ -306,12 +320,12 @@ li a {
   .containerReservation {
     position: fixed;
     overflow: hidden;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     padding: 5px 0;
   }
 }
-@media screen and (min-width:769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   h1,
   h2,
   h3,
@@ -321,7 +335,8 @@ li a {
     margin: 10px;
     text-align: center;
   }
-  .container, .containerAutre {
+  .container,
+  .containerAutre {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -330,7 +345,7 @@ li a {
   }
   .containerBot {
     padding-bottom: 30px;
-  }  
+  }
   .container img {
     width: 100%;
   }
@@ -349,7 +364,7 @@ li a {
     width: 50px;
   }
   .blocUn {
-    margin: 0  20px 20px 20px;
+    margin: 0 20px 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -414,12 +429,12 @@ li a {
   .containerReservation {
     position: fixed;
     overflow: hidden;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     padding: 5px 0;
   }
 }
-@media screen and (min-width:1025px) {
+@media screen and (min-width: 1025px) {
   h1,
   h2,
   h3,
@@ -429,7 +444,8 @@ li a {
     margin: 10px;
     text-align: center;
   }
-  .container, .containerAutre {
+  .container,
+  .containerAutre {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -507,7 +523,7 @@ li a {
   #reseaux img {
     width: 20px;
   }
-  
+
   .footerContainer {
     display: flex;
     flex-direction: row;
@@ -531,9 +547,8 @@ li a {
   .containerReservation {
     position: fixed;
     overflow: hidden;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     padding: 5px 0;
   }
 }
-
