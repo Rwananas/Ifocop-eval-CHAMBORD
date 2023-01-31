@@ -20,7 +20,7 @@ body {
   text-align: center;
   list-style-type: none;
 }
-/* BACKGROUND-COLOR */
+/* BACKGROUND-COLOR ET FONT COLOR */
 .bg-1 {
   background-color: antiquewhite;
 }
@@ -32,6 +32,14 @@ body {
 }
 .bg-4 {
   background-color:#9f890d;
+}
+span {
+  color: #9f890d;
+}
+hr {
+  height: 2px;
+  background-color: #9f890d;
+  border: none;
 }
 
 section a {
