@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+body {
+  text-align: center;
+  list-style-type: none;
+}
+
 /* FONTS  
 font-family: 'Courgette', cursive;
 font-family: 'Noto Sans', sans-serif;
@@ -16,10 +21,6 @@ p, a {
   font-family: 'Noto Sans', sans-serif;
 }
 
-body {
-  text-align: center;
-  list-style-type: none;
-}
 /* BACKGROUND-COLOR ET FONT COLOR */
 .bg-1 {
   background-color: antiquewhite;
