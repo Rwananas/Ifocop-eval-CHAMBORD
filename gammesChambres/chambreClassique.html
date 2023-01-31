@@ -12,7 +12,7 @@
     />
     <title>Hôtel Chambord - Accueil</title>
     <!-- MON CSS  -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <!-- BOOTSTRAP  -->
     <!-- <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -31,71 +31,56 @@
   <body>
     <main>
       <div class="containerTop">
-        <div class="mediaTopPage">
+        <!-- <div class="mediaTopPage">
           <video width="100%" height="auto" autoplay loop muted>
             <source src="vidNew/vidAccueilTop.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-        </div>
-        <h1><span>Q</span>ui <span>S</span>ommes <span>N</span>ous?</h1>
+        </div> -->
+        <h1><span>Chambre Classique</span></h1>
         <div>
-          <img src="imgNew/LogoChambordGold.svg" alt="logo de l'hôtel" />
+          <img src="../imgNew/LogoChambordGold.svg" alt="logo de l'hôtel" />
         </div>
       </div>
     </main>
     <hr />
     <section>
-      <h2><span>P</span>résentation</h2>
+      <h2>Choisir La Sobriété</h2>
+      <p>
+        Faites le choix d'une chambre d'un style résidentiel aux dimensions
+        généreuses avec vue sur la cour intérieure ou sur la rue piétonne.
+      </p>
+      <p><strong>500€/Nuit</strong></p>
       <hr />
       <div class="container bg-1">
-        <div class="blocUn">
-          <h3>Notre Vision</h3>
-          <p>
-            Lors de votre séjour, sachez que nous porterons une importance essentielle à la qualité du service, ainsi qu'au bien-être de nos hôtes afin de fournir une prestation irréprochable.
-            Nous souhaitons que chaque instant passés dans l'enceinte de notre établissement soient mémorables et que vous vous sentiez comme à la maison.
-          </p>
+        <div class="blocUn blocForm">
+          <h3>Réservez</h3>
+          
+          <form class="bg-2">
+            <div>
+              <label for="arrival">Date d'arrivée:</label>
+              <input type="date" id="arrival" name="arrival">
+            </div>
+            <div>
+              <label for="departure">Date de départ:</label>
+              <input type="date" id="departure" name="departure">
+            </div>
+            <div>
+              <label for="adults">Nombre d'adultes:</label>
+              <input type="number" id="adults" name="adults">
+            </div>
+            <div>
+              <label for="children">Nombre d'enfants:</label>
+              <input type="number" id="children" name="children">
+            </div>
+            <button type="submit">Envoyer</button>
+          </form>
+          
         </div>
         <div class="blocDeux">
           <img
-            src="imgNew/QSNnotreVision.jpg"
+            src="../imgNew/chambreClassique.jpg"
             alt="image d'un personnel hôtellier avec un charriot devant une chambre"
-            loading="lazy"
-          />
-        </div>
-      </div>
-      <hr>
-      <div class="container containerReverse bg-1">
-        <div class="blocUn">
-          <h3>Notre Histoire</h3>
-          <p>
-            L'Hôtel Chambord Paris, illustre édifice dominant la prestigieuse
-            rue Montaigne, célèbre l'esprit de Paris et de l'art de vivre à la
-            française : il est intemporel, légendaire, et affiche son élégance
-            sans complexe. Le bâtiment qui vous accueille est un monument historique qui a traverser les siècles et qui aura survécu au fil du temps aux heures les plus sombres de l'histoire française. De nombreux et longs travaux auront permis de maintenir debout l'établissement offrant un style moderne couplé à l'architecture du 18ème siècle, encore visible à l'intérieur.
-          </p>
-        </div>
-        <div class="blocDeux">
-          <img
-            src="imgNew/QSNnotreHistoire.jpg"
-            alt="image d'une photo d'époque représentant un immeuble ancien"
-            loading="lazy"
-          />
-        </div>
-      </div>
-      <hr>
-      <div class="container bg-1">
-        <div class="blocUn">
-          <h3>Notre Equipe</h3>
-          <p>
-            Nos équipe seront ravies de vous recevoir et de répondre à vos souhaits. L'Hôtel Chambord Paris, propose des services de qualités dès la réception avec la prise en charge de vos bagages jusqu'à la chambre.
-            L'équipe en charge de la restauration saura vous faire découvrir des saveurs unique avec un choix de produits frais, les différents menus sont élaborés par le chef Cantine, maître dans l'art de proposer des plats uniques et incontournables. 
-            Nos thérapeutes vous ferons passer un moment détente inoubliable au spa, avec plusieurs formules allant du massage, soin du visage, sauna, ou en profitant de notre piscine avec cascade.
-          </p>
-        </div>
-        <div class="blocDeux">
-          <img
-            src="imgNew/QSNnotreEquipe.jpg"
-            alt="image d'un personnel hôtellier dans une chambre"
             loading="lazy"
           />
         </div>
@@ -104,17 +89,21 @@
     <!-- FOOTER  -->
     <footer class="containerBot bg-3">
       <img
-        src="imgNew/LogoChambordGold.svg"
+        src="../imgNew/LogoChambordGold.svg"
         alt="logo de l'hôtel"
         id="footerLogo"
       />
       <div id="reseaux">
         <ul class="listeReseaux">
-          <li><img src="imgNew/005-instagram.svg" alt="logo instagram" /></li>
-          <li><img src="imgNew/001-youtube.svg" alt="logo youtube" /></li>
-          <li><img src="imgNew/002-pinterest.svg" alt="logo pinterest" /></li>
-          <li><img src="imgNew/004-facebook.svg" alt="logo facebook" /></li>
-          <li><img src="imgNew/003-twitter.svg" alt="logo twitter" /></li>
+          <li>
+            <img src="../imgNew/005-instagram.svg" alt="logo instagram" />
+          </li>
+          <li><img src="../imgNew/001-youtube.svg" alt="logo youtube" /></li>
+          <li>
+            <img src="../imgNew/002-pinterest.svg" alt="logo pinterest" />
+          </li>
+          <li><img src="../imgNew/004-facebook.svg" alt="logo facebook" /></li>
+          <li><img src="../imgNew/003-twitter.svg" alt="logo twitter" /></li>
         </ul>
       </div>
       <hr />
