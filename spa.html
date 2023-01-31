@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Erwann Bruneteau">
-    <meta name="keywords" content="Hôtel, Restaurant, Chambres, Spa">
+    <meta name="author" content="Erwann Bruneteau" />
+    <meta name="keywords" content="Hôtel, Restaurant, Chambres, Spa" />
     <meta
       name="description"
       content="L'hôtel CHAMBORD vous accueille dans son sublîme etablissement situé dans le 8ème arrondissement de Paris. Posez vos valises et venez profiter de nos différentes offres dans un cadre luxueux au centre de la capitale."
@@ -30,39 +30,77 @@
   </head>
   <body>
     <header>
-      <nav>
-
-      </nav>
+      <nav></nav>
     </header>
     <main>
-        <div class="containerTop">
-          <div class="mediaTopPage">
-            <video width="100%" height="auto" autoplay loop muted>
-              <source src="vidNew/vidSpaTop.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <h1><span>S</span>pa & <span>R</span>elaxation</h1>
-          <div>
-            <img src="imgNew/LogoChambordGold.svg" alt="logo de l'hôtel" />
-          </div>
+      <div class="containerTop">
+        <div class="mediaTopPage">
+          <video width="100%" height="auto" autoplay loop muted>
+            <source src="vidNew/vidSpaTop.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
+        <h1><span>S</span>pa & <span>R</span>elaxation</h1>
+        <div>
+          <img src="imgNew/LogoChambordGold.svg" alt="logo de l'hôtel" />
+        </div>
+      </div>
     </main>
-      <hr />
+    <hr />
     <section>
       <h2><span>S</span>pa <span>F</span>rançois <span>1er</span></h2>
-      <hr>
+      <hr />
       <div class="container bg-1">
         <div class="blocUn">
           <h3>Nos Soins</h3>
           <p>
-            Pour les clients de l'hôtel ou les parisiens, le Spa du Chambord Paris propose une expérience sur-mesure : un savoir-faire expert et des soins à la pointe de la technologie dans un écrin de bien-être que vous ne voudrez plus quitter.
+            Pour les clients de l'hôtel ou les parisiens, le Spa du Chambord
+            Paris propose une expérience sur-mesure : un savoir-faire expert et
+            des soins à la pointe de la technologie dans un écrin de bien-être
+            que vous ne voudrez plus quitter.
           </p>
-          <p>Faites votre choix parmi nos offres de soin.</p>
+          <p>Faites votre choix parmi nos offres de soins.</p>
           <!-- <a href="#">En savoir plus ></a> -->
         </div>
+
         <div class="blocDeux">
-          <img src="imgNew/soinSauna.jpg" alt="image d'un sauna" loading="lazy"/>
+          <div class="blocUn blocForm">
+            <h3><span>Réservez</span></h3>
+
+            <form class="bg-2">
+              <div>
+                <label for="arrival">Date d'arrivée:</label>
+                <input type="date" id="arrival" name="arrival" />
+              </div>
+              <div>
+                <label for="departure">Date de départ:</label>
+                <input type="date" id="departure" name="departure" />
+              </div>
+              <div>
+                <label for="adults">Nombre d'adultes:</label>
+                <input type="number" id="adults" name="adults" />
+              </div>
+              <div>
+                <label for="children">Nombre d'enfants:</label>
+                <input type="number" id="children" name="children" />
+              </div>
+              <div>
+                <label for="soin">Choisissez votre soin:</label>
+                <input list="soins" name="soin" id="soin" />
+
+                <datalist id="soins">
+                  <option value="La Détente"></option>
+                  <option value="L'Exploration"></option>
+                  <option value="La Thérapie"></option>
+                  <option value="Le Surprenant"></option>
+                  <option value="Le Voyage"></option>
+                </datalist>
+              </div>
+              <input type="submit" value="Réservez"/>
+              <input type="reset" value="Reset"/>
+            </form>
+          </div>
+          <!-- <img src="imgNew/soinSauna.jpg" alt="image d'un sauna" loading="lazy"/> -->
           <!-- <div class="carousel" style="width: 100%">
             <div
               id="carouselExampleIndicators"
@@ -157,150 +195,204 @@
         </div>
       </div>
     </section>
-    <hr>
+    <hr />
     <section>
       <h2><span>S</span>oin <span>D</span>étente</h2>
-      <hr>
+      <hr />
       <div class="container bg-1">
         <div class="blocUn">
           <h3>La Détente</h3>
           <p>
-            Ce massage exclusif, détoxinant, drainant et stimulant cible les trajets musculaires et énergétiques en se concentrant essentiellement sur les zones les plus sensibles de chacun, tout en s'inscrivant dans une démarche de prévention du capital jeunesse et santé sur le long terme. Il procure une détente profonde et durable.
+            Ce massage exclusif, détoxinant, drainant et stimulant cible les
+            trajets musculaires et énergétiques en se concentrant
+            essentiellement sur les zones les plus sensibles de chacun, tout en
+            s'inscrivant dans une démarche de prévention du capital jeunesse et
+            santé sur le long terme. Il procure une détente profonde et durable.
           </p>
-          <a href="#"> Découvrez > </a>
+          <p>Réservez une chambre Deluxe ou Suite pour bénéficier de 3h offertes.</p>
+          <p><strong>100€/séance</strong></p>
+          <!-- <a href="#"> Découvrez > </a> -->
         </div>
+
         <div class="blocDeux">
-          <img src="imgNew/soinDetente.jpg" alt="image d'une femme qui se repose" loading="lazy"/>
+          <img
+            src="imgNew/soinDetente.jpg"
+            alt="image d'une femme qui se repose"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>
-    <hr>
+    <hr />
     <section>
       <h2><span>S</span>oin <span>D</span>écouverte</h2>
-      <hr>
+      <hr />
       <div class="container bg-1">
         <div class="blocUn">
           <h3>L'Exploration</h3>
           <p>
-            Ce soin beauté des mains ou des pieds vous chouchoute jusqu'au bout des ongles. Il peut se prolonger sur 80 minutes avec un gommage et un masque chaud pour que vos mains ou vos pieds retrouvent éclat et douceur.
+            Ce soin beauté des mains ou des pieds vous chouchoute jusqu'au bout
+            des ongles. Il peut se prolonger sur 80 minutes avec un gommage et
+            un masque chaud pour que vos mains ou vos pieds retrouvent éclat et
+            douceur.
           </p>
-          <a href="#"> Découvrez > </a>
+          <p>Réservez une chambre Deluxe ou Suite pour bénéficier de 2h offertes.</p>
+          <p><strong>150€/séance</strong></p>
+          <!-- <a href="#"> Découvrez > </a> -->
         </div>
         <div class="blocDeux">
-          <img src="imgNew/soinDecouverte.jpg" alt="image d'une salle de relaxation" loading="lazy"/>
+          <img
+            src="imgNew/soinDecouverte.jpg"
+            alt="image d'une salle de relaxation"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>
-    <hr>
+    <hr />
     <section>
       <h2><span>S</span>oin <span>R</span>elaxant</h2>
-      <hr>
+      <hr />
       <div class="container bg-1">
         <div class="blocUn">
           <h3>La Thérapie</h3>
           <p>
-            Ce massage des tissus profonds a été spécialement créé pour soulager les tensions et le stress musculaire. Le corps retrouve son énergie vitale et son dynamisme grâce aux techniques d'acupression alliées à de légers étirements. Une parenthèse énergisante idéale pour récupérer d'un effort physique ou après une journée trépidante de shopping.
+            Ce massage des tissus profonds a été spécialement créé pour soulager
+            les tensions et le stress musculaire. Le corps retrouve son énergie
+            vitale et son dynamisme grâce aux techniques d'acupression alliées à
+            de légers étirements. Une parenthèse énergisante idéale pour
+            récupérer d'un effort physique ou après une journée trépidante de
+            shopping.
           </p>
-          <a href="#"> Découvrez > </a>
+          <p>Réservez une chambre Deluxe ou Suite pour bénéficier de 1h offerte.</p>
+          <p><strong>200€/séance</strong></p>
+          <!-- <a href="#"> Découvrez > </a> -->
         </div>
         <div class="blocDeux">
-          <img src="imgNew/soinRelaxant.jpg" alt="image d'un massage avec des pierres chaudes" loading="lazy"/>
+          <img
+            src="imgNew/soinRelaxant.jpg"
+            alt="image d'un massage avec des pierres chaudes"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>
-    <hr>
+    <hr />
     <section>
       <h2><span>S</span>oin <span>P</span>laisir</h2>
-      <hr>
+      <hr />
       <div class="container bg-1">
         <div class="blocUn">
           <h3>Le Surprenant</h3>
           <p>
-            Grâce à ses propriétés antioxydantes, le gommage corporel et son massage offrent une voluptueuse parenthèse de beauté, couronnée par un soin du visage. Une dégustation de macarons confectionnés par nos pâtissiers accompagnée d'une coupe de champagne complète cette expérience unique à Paris.
+            Grâce à ses propriétés antioxydantes, le gommage corporel et son
+            massage offrent une voluptueuse parenthèse de beauté, couronnée par
+            un soin du visage. Une dégustation de macarons confectionnés par nos
+            pâtissiers accompagnée d'une coupe de champagne complète cette
+            expérience unique à Paris.
           </p>
-          <a href="#"> Découvrez > </a>
+          <p>Réservez une Suite pour bénéficier de 1h offerte.</p>
+          <p><strong>220€/séance</strong></p>
+          <!-- <a href="#"> Découvrez > </a> -->
         </div>
         <div class="blocDeux">
-          <img src="imgNew/soinPlaisir.jpg" alt="image d'une femme avec un soin du visage" loading="lazy"/>
+          <img
+            src="imgNew/soinPlaisir.jpg"
+            alt="image d'une femme avec un soin du visage"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>
-    <hr>
+    <hr />
     <section>
       <h2><span>S</span>oin <span>E</span>vasion</h2>
-      <hr>
+      <hr />
       <div class="container bg-1">
         <div class="blocUn">
           <h3>Le Voyage</h3>
           <p>
-            Dans une atmosphère alliant originalité et confort, la piscine de notre hôtel parisien est un endroit idéal pour se détendre et passer un agréable moment. On y trouve une douce cascade apaisante, et l'espace abrite également un hammam mixte et une fontaine de glace.
+            Dans une atmosphère alliant originalité et confort, la piscine de
+            notre hôtel parisien est un endroit idéal pour se détendre et passer
+            un agréable moment. On y trouve une douce cascade apaisante, et
+            l'espace abrite également un hammam mixte et une fontaine de glace.
           </p>
-          <a href="#"> Découvrez > </a>
+          <p>Réservez une Suite pour bénéficier d'un accès illimité.</p>
+          <p><strong>350€/jour</strong></p>
+          <!-- <a href="#"> Découvrez > </a> -->
         </div>
         <div class="blocDeux">
-          <img src="imgNew/soinEvasion.jpg" alt="image d'une piscine dans un spa" loading="lazy"/>
+          <img
+            src="imgNew/soinEvasion.jpg"
+            alt="image d'une piscine dans un spa"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>
-    <hr>
-    <section id="reservation">
-        <div class="containerReservation bg-4">
-          <button><strong><a href="#">Réserver</a></strong></button>
-        </div>
-      </section>
-    
+    <hr />
+    <!-- <section id="reservation">
+      <div class="containerReservation bg-4">
+        <button>
+          <strong><a href="#">Réserver</a></strong>
+        </button>
+      </div>
+    </section> -->
+
     <!-- FOOTER  -->
     <footer class="containerBot bg-3">
-        <img
-          src="imgNew/LogoChambordGold.svg"
-          alt="logo de l'hôtel"
-          id="footerLogo"
-        />
-        <div id="reseaux">
-          <ul class="listeReseaux">
-            <li><img src="imgNew/005-instagram.svg" alt="logo instagram" /></li>
-            <li><img src="imgNew/001-youtube.svg" alt="logo youtube" /></li>
-            <li><img src="imgNew/002-pinterest.svg" alt="logo pinterest" /></li>
-            <li><img src="imgNew/004-facebook.svg" alt="logo facebook" /></li>
-            <li><img src="imgNew/003-twitter.svg" alt="logo twitter" /></li>
+      <img
+        src="imgNew/LogoChambordGold.svg"
+        alt="logo de l'hôtel"
+        id="footerLogo"
+      />
+      <div id="reseaux">
+        <ul class="listeReseaux">
+          <li><img src="imgNew/005-instagram.svg" alt="logo instagram" /></li>
+          <li><img src="imgNew/001-youtube.svg" alt="logo youtube" /></li>
+          <li><img src="imgNew/002-pinterest.svg" alt="logo pinterest" /></li>
+          <li><img src="imgNew/004-facebook.svg" alt="logo facebook" /></li>
+          <li><img src="imgNew/003-twitter.svg" alt="logo twitter" /></li>
+        </ul>
+      </div>
+      <hr />
+      <div class="footerContainer">
+        <div id="footerLeft">
+          <p style="color: lightgray"><em>&copy;Erwann Bruneteau, 2023</em></p>
+          <ul>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">CGV</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Plan du site</a></li>
           </ul>
         </div>
-        <hr />
-        <div class="footerContainer">
-          <div id="footerLeft">
-            <p style="color: lightgray;"><em>&copy;Erwann Bruneteau, 2023</em></p>
-            <ul>
-              <li><a href="#">Mentions légales</a></li>
-              <li><a href="#">CGV</a></li>
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Plan du site</a></li>
-            </ul>
-          </div>
-          <div id="footerRight">
-            <p><address style="color: lightgray;">1 avenue Montaigne 75008 Paris</address></p>
-            <ul>
-              <li><a href="#">Accès</a></li>
-              <li><a href="#">Nous contacter</a></li>
-              <li><a href="#">Recrutement</a></li>
-              <li><a href="#">Presse</a></li>
-              <li><a href="#">Nous contacter</a></li>
-            </ul>
-          </div>
+        <div id="footerRight">
+          <address style="color: lightgray">
+            1 avenue Montaigne 75008 Paris
+          </address>
+          <ul>
+            <li><a href="#">Accès</a></li>
+            <li><a href="#">Nous contacter</a></li>
+            <li><a href="#">Recrutement</a></li>
+            <li><a href="#">Presse</a></li>
+            
+          </ul>
         </div>
-        <hr />
-        <div class="footerLangue">
-          <p style="color: lightgray;">Changer de langue</p>
-          <div id="btnLangue">
-            <form action="#" name="langages">
-              <label>Pays</label>
-              <select>
-                <option value="">Francais</option>
-                <option value="">Anglais</option>
-              </select>
-            </form>
-          </div>
+      </div>
+      <hr />
+      <div class="footerLangue">
+        <p style="color: lightgray">Changer de langue</p>
+        <div id="btnLangue">
+          <form action="#" name="langages">
+            <label>Pays</label>
+            <select>
+              <option value="">Francais</option>
+              <option value="">Anglais</option>
+            </select>
+          </form>
         </div>
-      </footer>
+      </div>
+    </footer>
     <!-- script -->
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
