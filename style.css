@@ -50,6 +50,60 @@ hr {
   margin: 0;
 }
 
+/* FORMULAIRE  */
+#booking-form {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#booking-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#booking-form input[type="text"],
+#booking-form input[type="email"],
+#booking-form input[type="date"],
+#booking-form input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#booking-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+#message {
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  display: none;
+}
+
+#message.success {
+  background-color: lightgreen;
+  color: green;
+  border: 1px solid green;
+}
+
+#message.error {
+  background-color: pink;
+  color: red;
+  border: 1px solid red;
+}
+
 section a {
   color: #9f890d;
   text-decoration: none;
@@ -341,6 +395,14 @@ ul {
     margin: 10px;
     text-align: center;
   }
+  .blocFlex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+  }
   .container,
   .containerAutre {
     display: flex;
@@ -450,6 +512,14 @@ ul {
     margin: 10px;
     text-align: center;
   }
+  .blocFlex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+  }
   .container,
   .containerAutre {
     display: flex;
@@ -478,6 +548,8 @@ ul {
   .containerAutre img {
     width: 50px;
   }
+  
+  
   .blocUn {
     /* margin: 0  20px 20px 20px; */
     margin: 0 auto;
@@ -490,6 +562,7 @@ ul {
     border-radius: 5px;
     background-color: white;
   }
+  
   .blocForm {
     margin: 0 auto;
     background-color: white;

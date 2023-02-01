@@ -31,36 +31,90 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-xxl bg-light text-dark opacity-75 fixed-top">
+      <nav
+        class="navbar navbar-expand-xxl bg-light text-dark opacity-75 fixed-top"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">CHAMBORD</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Accueil</a
+                >
               </li>
-              
+
               <li class="nav-item dropdown mx-3">
-                <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle link-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Hébergement
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="chambres.html">Nos Gammes</a></li>
-                  <li><a class="dropdown-item" href="gammesChambres/chambreClassique.html">Chambre Classique</a></li>
-                  <li><a class="dropdown-item" href="gammesChambres/chambreConfort.html">Chambre Confort</a></li>
-                  <li><a class="dropdown-item" href="gammesChambres/chambreDeluxe.html">Chambre Deluxe</a></li>
-                  <li><a class="dropdown-item" href="gammesChambres/chambreSuite.html">Suite</a></li>
+                  <li>
+                    <a class="dropdown-item" href="chambres.html">Nos Gammes</a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="gammesChambres/chambreClassique.html"
+                      >Chambre Classique</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="gammesChambres/chambreConfort.html"
+                      >Chambre Confort</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="gammesChambres/chambreDeluxe.html"
+                      >Chambre Deluxe</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="gammesChambres/chambreSuite.html"
+                      >Suite</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item dropdown mx-3">
-                <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle link-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Restauration
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="restaurant.html">Restaurant & Cartes</a></li>
+                  <li>
+                    <a class="dropdown-item" href="restaurant.html"
+                      >Restaurant & Cartes</a
+                    >
+                  </li>
                   <li><a class="dropdown-item" href="#">Découverte</a></li>
                   <li><a class="dropdown-item" href="#">Brasserie</a></li>
                   <li><a class="dropdown-item" href="#">Dégustation</a></li>
@@ -68,15 +122,25 @@
                 </ul>
               </li>
               <li class="nav-item dropdown mx-3">
-                <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle link-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Spa
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="spa.html">Nos Soins</a></li>  
+                  <li>
+                    <a class="dropdown-item" href="spa.html">Nos Soins</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link link-dark" href="presentation.html">Présentation</a>
+                <a class="nav-link link-dark" href="presentation.html"
+                  >Présentation</a
+                >
               </li>
               <li class="nav-item mx-3">
                 <a class="nav-link link-dark" href="#">Actualités</a>
@@ -85,7 +149,7 @@
                 <a class="nav-link link-dark" href="#">Evènements</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link link-dark" href="#">Accès</a>
+                <a class="nav-link link-dark" href="reservation.html">Accès</a>
               </li>
               <li class="nav-item mx-3">
                 <a class="nav-link link-dark" href="#">Contactez-Nous</a>
@@ -127,43 +191,11 @@
         </div>
 
         <div class="blocDeux">
-          <div class="blocUn blocForm">
-            <h3><span>Réservez</span></h3>
-
-            <form class="bg-2">
-              <div>
-                <label for="arrival">Date d'arrivée:</label>
-                <input type="date" id="arrival" name="arrival" />
-              </div>
-              <div>
-                <label for="departure">Date de départ:</label>
-                <input type="date" id="departure" name="departure" />
-              </div>
-              <div>
-                <label for="adults">Nombre d'adultes:</label>
-                <input type="number" id="adults" name="adults" />
-              </div>
-              <div>
-                <label for="children">Nombre d'enfants:</label>
-                <input type="number" id="children" name="children" />
-              </div>
-              <div>
-                <label for="soin">Choisissez votre soin:</label>
-                <input list="soins" name="soin" id="soin" />
-
-                <datalist id="soins">
-                  <option value="La Détente"></option>
-                  <option value="L'Exploration"></option>
-                  <option value="La Thérapie"></option>
-                  <option value="Le Surprenant"></option>
-                  <option value="Le Voyage"></option>
-                </datalist>
-              </div>
-              <input type="submit" value="Réservez" />
-              <input type="reset" value="Reset" />
-            </form>
-          </div>
-          <!-- <img src="imgNew/soinSauna.jpg" alt="image d'un sauna" loading="lazy"/> -->
+          <img
+            src="imgNew/soinSauna.jpg"
+            alt="image d'un sauna"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>
@@ -309,13 +341,13 @@
       </div>
     </section>
     <hr />
-    <!-- <section id="reservation">
+    <section id="reservation">
       <div class="containerReservation bg-4">
         <button>
-          <strong><a href="#">Réserver</a></strong>
+          <strong><a href="reservation.html">Réserver</a></strong>
         </button>
       </div>
-    </section> -->
+    </section>
 
     <!-- FOOTER  -->
     <footer class="containerBot bg-3">
@@ -349,7 +381,7 @@
             1 avenue Montaigne 75008 Paris
           </address>
           <ul>
-            <li><a href="#">Accès</a></li>
+            <li><a href="reservation.html">Accès</a></li>
             <li><a href="#">Nous contacter</a></li>
             <li><a href="#">Recrutement</a></li>
             <li><a href="#">Presse</a></li>
