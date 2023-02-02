@@ -10,7 +10,7 @@
       name="description"
       content="L'hôtel CHAMBORD vous accueille dans son sublîme établissement situé dans le 8ème arrondissement de Paris. Posez vos valises et venez profiter de nos différentes offres dans un cadre luxueux au centre de la capitale."
     />
-    <title>Hôtel Chambord - Evènements</title>
+    <title>Hôtel Chambord - Nous Contacter</title>
 
     <!-- BOOTSTRAP  -->
     <link
@@ -149,7 +149,7 @@
               <a class="nav-link link-dark" href="reservation.html">Accès</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link link-dark" href="contact.html">Contactez-Nous</a>
+              <a class="nav-link link-dark" href="#">Contactez-Nous</a>
             </li>
           </ul>
         </div>
@@ -166,7 +166,7 @@
           </video>
         </div> -->
         <br />
-        <h1><span>E</span>vènements & <span>S</span>oirées</h1>
+        <h1><span>N</span>ous <span>C</span>ontacter</h1>
         <div>
           <img src="imgNew/LogoChambordGold.svg" alt="logo de l'hôtel" />
         </div>
@@ -174,66 +174,92 @@
     </main>
     <hr />
     <section>
-      <h2><span>M</span>oments Uniques</h2>
+      <h2><span>F</span>ormulaire</h2>
       <hr />
       <div class="container bg-1">
         <div class="blocUn">
-          <h3>Salon Evènementiel & Réunions</h3>
-          <p>
-              Proposez à vos invités de découvrir Paris de la manière la plus
-              éblouissante qui soit. Au Chambord Paris, vous profiterez du
-              meilleur de la ville lumière, avec des restaurants étoilés, des
-              salles de réunion grandioses, des espaces de réception somptueux
-              et des services de restauration raffinés, le tout dans un cadre
-              Art Déco unique, à quelques pas des sites touristiques les plus
-              fascinants.
-          </p>
-        </div>
-        <div class="blocDeux">
-          <video width="100%" height="auto" autoplay loop muted>
-            <source src="vidNew/vidEventUnSD.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
+          <form id="booking-form">
+            <!-- <label for="date">Date de réservation:</label>
+            <input type="date" id="date" name="date" />
+            <br /><br />
+            <label for="time">Heure de réservation:</label>
+            <input type="time" id="time" name="time" />
+            <br /><br /> -->
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" />
+            <br /><br />
+            <label for="name">Prenom:</label>
+            <input type="text" id="name" name="name" />
+            <br /><br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            <br /><br />
+            <label for="tel">Téléphone:</label>
+            <input type="tel" id="tel" name="tel" />
+            <br /><br />
+            <label for="motif">Motif du contact:</label>
+            <input list="motifs" name="motif" id="motif" />
 
-      <div class="container containerReverse bg-1">
-        <div class="blocUn">
-          <h3>Mariages & Conférences</h3>
-          <p>
-            L'Hôtel Chambord accueille, en plein cœur de la capitale, les plus mémorables mariages, événements et conférences. Baignés par la lumière du jour, nos salons disposent d'une vue inégalée sur Paris et ses plus beaux monuments, alliée au confort moderne et à de nombreux choix de restauration. Nous pouvons mettre à votre disposition des musiciens ou un DJ pour garantir un événement à l'ambiance distinctive. La fête peut ensuite se poursuivre toute la nuit dans l'une des salles de réception attenantes.
-          </p>
-        </div>
-        <div class="blocDeux">
-          <video width="100%" height="auto" autoplay loop muted>
-            <source src="vidNew/vidEventDeuxSD.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
+            <datalist id="motifs">
+              <option value="Question générale"></option>
+              <option value="Effectuer ou modifier une réservation"></option>
+              <option value="Assistance technique"></option>
+              <option value="Aménagement de l'hôtel"></option>
+              <option value="Autre"></option>
+            </datalist>
+            <br><br>
+            <textarea name="comment" id="textarea" cols="30" rows="10" placeholder="Que pouvons-nous faire pour vous?" style="resize: none;"></textarea><br>
 
-      <div class="container bg-1">
-        <div class="blocUn">
-          <h3>Informations</h3>
-          <p>
-           <strong>ESPACE TOTAL DÉDIÉ AUX ÉVÉNEMENTS</strong><br /><br>
-            1 246 m2 (13 388 pieds carrés)
-          </p>
+            <br /><br />
+            <button type="submit">Envoyer</button>
+          </form>
           <br />
-          <p>
-           <strong>ESPACES DE RENCONTRE ET DE RESTAURATION</strong><br /><br>
-            250
-          </p>
+          <div id="message"></div>
         </div>
-        <div class="blocDeux">
+        <!-- <div class="blocDeux">
+          <img
+            src="imgNew/reservastionUn.jpg"
+            alt="image d'un personnel hôtellier de face"
+            loading="lazy"
+          />
+        </div> -->
+      </div>
+      <hr />
+      <!-- <section>
+        <h2><span>A</span>ccès</h2>
+        <hr />
+        <div class="blocFlex bg-2">
+          <div class="blocUn">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6401922469695!2d2.299889715910573!3d48.86507117928816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0dd39a4d%3A0x508194b82b12f012!2s1%20Av.%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1675278565200!5m2!1sfr!2sfr"
+              width="100%"
+              height="300px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <h5>Adresse:</h5>
+          <address>
+            Hôtel Chambord <br />1, avenue Montaigne 75008 Paris, France
+          </address>
+          <p>Tél:01.47.75.00.08</p>
+          <p>Métro ligne 9, station Alma-Marceau</p>
+          <p>Bus 42, arrêt Alma-Marceau</p>
+        </div>
+        <hr />
+      </section>
+      <div class="containerTop">
+        <div class="mediaTopPage">
           <video width="100%" height="auto" autoplay loop muted>
-            <source src="vidNew/vidEventTroisSD.mp4" type="video/mp4" />
+            <source src="vidNew/vidAcces.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
       </div>
     </section>
-    <hr />
+    <hr /> -->
     <!-- FOOTER  -->
     <footer class="containerBot bg-3">
       <img
@@ -266,8 +292,8 @@
             1 avenue Montaigne 75008 Paris
           </address>
           <ul>
-            <li><a href="reservation.html">Accès</a></li>
-            <li><a href="contact.html">Nous contacter</a></li>
+            <li><a href="#">Accès</a></li>
+            <li><a href="#">Nous contacter</a></li>
             <li><a href="#">Recrutement</a></li>
             <li><a href="#">Presse</a></li>
           </ul>
@@ -292,5 +318,6 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>

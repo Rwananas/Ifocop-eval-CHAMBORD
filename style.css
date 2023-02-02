@@ -69,6 +69,8 @@ hr {
 #booking-form input[type="email"],
 #booking-form input[type="date"],
 #booking-form input[type="time"],
+#booking-form input[type="tel"],
+#booking-form input[list="motifs"],
 #booking-form textarea {
   width: 100%;
   padding: 10px;
