@@ -137,7 +137,7 @@ ul {
     text-align: center;
   }
   .containerBot,
-  .containerTop,
+  /* .containerTop, */
   .container,
   .containerAutre,
   .footerContainer {
@@ -214,7 +214,7 @@ ul {
     text-align: center;
   }
   .containerBot,
-  .containerTop,
+  /* .containerTop, */
   .container,
   .containerAutre,
   .footerContainer {
@@ -296,7 +296,7 @@ ul {
     margin: 10px;
     text-align: center;
   }
-  .containerTop,
+  /* .containerTop, */
   .container,
   .containerAutre {
     display: flex;
