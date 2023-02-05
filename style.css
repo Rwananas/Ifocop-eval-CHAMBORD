@@ -47,7 +47,7 @@ hr {
   height: 3px;
   background-color: #9f890d;
   border: none;
-  margin: 0;
+  margin: auto;
 }
 
 /* FORMULAIRE  */
@@ -286,7 +286,7 @@ ul {
     padding: 5px 0;
   }
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   h1,
   h2,
   h3,
@@ -563,6 +563,18 @@ ul {
     border: 1px solid #9f890d;
     border-radius: 5px;
     background-color: white;
+  }
+  .blocTrois {
+    /* margin: 0  20px 20px 20px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    /* border: 1px solid #9f890d;
+    border-radius: 5px; */
+    /* background-color: white; */
   }
 
   .blocForm {
