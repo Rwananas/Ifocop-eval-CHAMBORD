@@ -201,6 +201,7 @@ ul {
     bottom: 0;
     width: 100%;
     padding: 5px 0;
+    filter: opacity(85%);
   }
 }
 @media screen and (max-width: 425px) {
@@ -284,6 +285,7 @@ ul {
     bottom: 0;
     width: 100%;
     padding: 5px 0;
+    filter: opacity(85%);
   }
 }
 @media screen and (max-width: 768px) {
@@ -386,6 +388,7 @@ ul {
     bottom: 0;
     width: 100%;
     padding: 5px 0;
+    filter: opacity(85%);
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -503,6 +506,7 @@ ul {
     bottom: 0;
     width: 100%;
     padding: 5px 0;
+    filter: opacity(85%);
   }
 }
 @media screen and (min-width: 1025px) {
@@ -643,5 +647,6 @@ ul {
     bottom: 0;
     width: 100%;
     padding: 5px 0;
+    filter: opacity(85%);
   }
 }
