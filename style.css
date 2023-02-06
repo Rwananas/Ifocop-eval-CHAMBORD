@@ -79,6 +79,19 @@ hr {
   font-size: 16px;
 }
 
+#formNewsletter input[type="email"] {
+  width: 285px;
+  border-radius: 5px;
+}
+#formNewsletter button[type="submit"] {
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #9f890d;
+  border-radius: 5px;
+  color: #9f890d;
+  font-size: 18px;
+}
+
 #booking-form button[type="submit"] {
   padding: 10px 20px;
   background-color: lightblue;
