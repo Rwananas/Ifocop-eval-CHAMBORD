@@ -212,6 +212,7 @@
     <hr />
     <section>
       <h2><span>R</span>ecrutement</h2>
+      <p>Remplissez le formulaire afin de rejoindre nos équipes. Le service de recrutement étudiera votre dossier avec attention. Un retour vous sera communiqué dans les plus brefs délais.</p>
       <hr />
       <div class="container bg-1">
         <div class="blocUn">
@@ -234,23 +235,29 @@
             <label for="tel">Téléphone:</label>
             <input type="tel" id="tel" name="tel" />
             <br /><br />
-            <label for="motif">Motif du contact:</label>
+            <label for="motif">Quel service:</label>
             <input list="motifs" name="motif" id="motif" />
 
             <datalist id="motifs">
-              <option value="Question générale"></option>
-              <option value="Effectuer ou modifier une réservation"></option>
-              <option value="Assistance technique"></option>
+              <option value="Accueil"></option>
+              <option value="Restauration"></option>
+              <option value="Thérapeute"></option>
               <option value="Aménagement de l'hôtel"></option>
               <option value="Autre"></option>
             </datalist>
             <br /><br />
+            <strong><label for="file">Déposez votre CV ici</label></strong>
+            <input type="file" id="file">
+            <br><br>
+            <strong><label for="file">Déposez votre Lettre de Motivation ici</label></strong>
+            <input type="file" id="file">
+            <br><br>
             <textarea
               name="comment"
               id="textarea"
               cols="30"
               rows="10"
-              placeholder="Que pouvons-nous faire pour vous?"
+              placeholder="Présentez-vous en quelques mots"
               style="resize: none"
             ></textarea>
 
