@@ -85,6 +85,7 @@ hr {
 }
 #formNewsletter button[type="submit"] {
   padding: 10px 20px;
+  margin-bottom: 20px;
   background-color: rgb(0, 0, 0);
   border: 2px solid #9f890d;
   border-radius: 5px;
