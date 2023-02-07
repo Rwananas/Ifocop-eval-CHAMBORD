@@ -50,6 +50,11 @@ hr {
   margin: auto;
 }
 
+/* .container, .containerAutre {
+  border-top: 3px solid lightgray;
+  border-bottom: 3px solid lightgray;
+} */
+
 /* FORMULAIRE  */
 #booking-form {
   width: 100%;
