@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Erwann Bruneteau" />
+    <meta name="keywords" content="Hôtel, Restaurant, Chambres, Spa" />
+    <meta
+      name="description"
+      content="L'hôtel CHAMBORD vous accueille dans son sublîme établissement situé dans le 8ème arrondissement de Paris. Posez vos valises et venez profiter de nos différentes offres dans un cadre luxueux au centre de la capitale."
+    />
+    <title>Hôtel Chambord - Evènements</title>
+
+    <!-- BOOTSTRAP  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- MON CSS  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Sans:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <nav
+      class="navbar navbar-expand-xxl bg-light text-dark opacity-75 fixed-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CHAMBORD</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Accueil</a
+              >
+            </li>
+
+            <li class="nav-item dropdown mx-3">
+              <a
+                class="nav-link dropdown-toggle link-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hébergement
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="chambres.html">Nos Gammes</a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="gammesChambres/chambreClassique.html"
+                    >Chambre Classique</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="gammesChambres/chambreConfort.html"
+                    >Chambre Confort</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="gammesChambres/chambreDeluxe.html"
+                    >Chambre Deluxe</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="gammesChambres/chambreSuite.html"
+                    >Suite</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a
+                class="nav-link dropdown-toggle link-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Restauration
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="restaurant.html"
+                    >Restaurant & Cartes</a
+                  >
+                </li>
+                <!-- <li><a class="dropdown-item" href="#">Découverte</a></li> -->
+                <li>
+                  <a class="dropdown-item" href="restaurant.html#linkBrasserie"
+                    >Brasserie</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="restaurant.html#linkDegustation"
+                    >Dégustation</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="restaurant.html#linkRestaurant"
+                    >Restaurant</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a
+                class="nav-link dropdown-toggle link-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Spa
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="spa.html">Nos Soins</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spa.html#linkDetente"
+                    >Nos Soin Détente</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spa.html#linkDecouverte"
+                    >Nos Soin Découverte</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spa.html#linkRelaxant"
+                    >Nos Soin Relaxant</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spa.html#linkPlaisir"
+                    >Nos Soin Plaisir</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spa.html#linkEvasion"
+                    >Nos Soin Evasion</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link link-dark" href="presentation.html"
+                >Présentation</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link link-dark" href="actuPresse.html"
+                >Actualités</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link link-dark" href="event.html">Evènements</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link link-dark" href="reservation.html">Accès</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link link-dark" href="contact.html"
+                >Contactez-Nous</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <div class="containerTop">
+        <br />
+        <h1>
+          <span>C</span>onditions <span>G</span>énérales <span>D</span>e
+          <span>V</span>ente
+        </h1>
+        <div>
+          <img src="imgNew/LogoChambordGold.svg" alt="logo de l'hôtel" />
+        </div>
+      </div>
+    </main>
+    <!-- <hr /> -->
+    <section>
+      <h2>
+        Veuillez lire nos conditions générales de vente :
+      </h2>
+      <!-- <hr /> -->
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4><span>A</span>rticle 1 : dispositions générales</h4>
+          <p>
+            Les présentes conditions générales de vente (ci-après : « CGV »)
+            s'appliquent aux opérations de ventes conclues par l'hôtel Le
+            Chambord Paris - Hotel (ci-après : « la Société »)
+            avec le Client. Elles annulent et remplacent toute version
+            précédente ayant pu être mise en ligne et/ou acceptée par le Client.
+            Les présentes CGV s'appliquent aux réservations individuelles égales
+            ou inférieures à 6 chambres, faites-en une seule fois, conclues
+            directement dans notre hôtel ou sur notre site internet
+            www.lareserve-paris.com (ci-après : « Le Site »). Le client s'engage
+            à respecter et à faire respecter toutes les dispositions énoncées
+            dans le présent document, ainsi que les prescriptions légales et
+            réglementaires. Ces conditions de ventes sont modifiables à tout
+            moment, et les conditions applicables seront celles en vigueur à la
+            date où la réservation sera effectuée Les CGV peuvent être
+            complétées par des conditions de vente particulières figurant sur
+            les confirmations de réservation.
+          </p>
+        </div>
+      </div>
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4><span>A</span>rticle 2 : capacité</h4>
+          <p>
+            Le Client reconnaît avoir la capacité de contracter, c'est-à-dire
+            avoir la majorité légale et ne pas être sous curatelle ou sous
+            tutelle. Le Client déclare également utiliser le Site conformément
+            aux présentes CGV, en son nom et au nom et pour le compte de tous
+            les bénéficiaires des prestations commandées par ses soins sur le
+            Site dont il reconnaît être le mandataire (ci-après : les «
+            Bénéficiaires ») et auxquels les présentes CGV seront opposables. Le
+            Client est responsable financièrement de l'utilisation du Site faite
+            tant en son nom que pour le compte des Bénéficiaires, sauf à
+            démontrer une utilisation frauduleuse ne résultant d'aucune faute ou
+            négligence de sa part. Le Client garantit la véracité et
+            l'exactitude des informations fournies par lui en son nom et au nom
+            et pour le compte de tous les Bénéficiaires utilisant ses données
+            sur le Site. La Société se réserve le droit à tout moment de ne pas
+            contracter avec un Client qui ferait une utilisation frauduleuse du
+            Site ou qui contreviendrait aux présentes CGV. Il est à cet égard
+            rappelé les termes de l'article 313-1 du Code Pénal français : «
+            L'escroquerie est le fait, soit par l'usage d'un faux nom ou d'une
+            fausse qualité, soit par l'abus d'une qualité vraie, soit par
+            l'emploi de manœuvres frauduleuses de tromper une personne physique
+            ou morale et de la déterminer ainsi, à son préjudice ou au préjudice
+            d'un tiers, à remettre des fonds, des valeurs ou un bien quelconque,
+            à fournir un service ou à consentir un acte opérant obligation ou
+            décharge. L'escroquerie est punie de cinq ans d'emprisonnement et de
+            375.000 € d'amende ».
+          </p>
+        </div>
+      </div>
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4><span>A</span>rticle 3 : droit de rétractation</h4>
+          <p>
+            En application des dispositions de l'article L 121-21-8 du Code de
+            la Consommation, les prestations proposées sur le Site par la
+            Société ne sont pas soumises à l'application du droit de
+            rétractation prévu aux articles L. 121-21 et suivants du code de la
+            consommation en matière de vente à distance. En conséquence, les
+            prestations commandées sur le Site sont exclusivement soumises aux
+            conditions d'annulation et de modification prévues aux présentes CGV
+            et le Client ne pourra pas invoquer le droit à rétractation.
+          </p>
+        </div>
+      </div>
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4><span>A</span>rticle 4 : modalités de réservations</h4>
+          <p>
+            Les prix pratiqués ne visent que les prestations strictement
+            mentionnées dans la réservation. Les tarifs mentionnés sur le site
+            sont susceptibles de modification sans préavis et seul le prix
+            mentionné dans la confirmation de réservation est contractuel.
+          </p>
+          <h5>4.1 : RÉSERVATION DES CHAMBRES :</h5>
+          <h6>4.1.A : RÉSERVATIONS EN DIRECT</h6>
+          <p>
+            Les tarifs pratiqués sont établis en euros (€) par chambre et par
+            nuit basés sur une occupation double. Nos tarifs incluent toutes les
+            taxes et le service. Tout changement du taux applicable, ou toute
+            modification ou instauration de nouvelles taxes légales instaurées
+            par les autorités compétentes, sera répercuté automatiquement sur
+            les prix indiqués à la date de facturation. Au prix mentionné dans
+            la réservation seront ajoutées les prestations complémentaires
+            fournies par l'hôtelier lors du séjour et, le cas échéant, la taxe
+            de séjour. La réservation ne sera effective que si le client
+            garantit sa réservation en communiquant un numéro de carte de crédit
+            avec date de validité valable au moment du séjour du client. L'hôtel
+            se réserve le droit de refuser toute réservation dans le cas où le
+            numéro de carte de crédit serait incorrect. Lors de l'enregistrement
+            de la réservation, une autorisation de débit de la carte de crédit
+            sera effectuée. Cette autorisation sera effectuée à titre
+            informatif, et ne constituera en aucun cas un débit du compte (sauf
+            en cas de réservation aux tarifs promotions non annulables, non
+            modifiables et en prépaiement total au moment de la réservation). A
+            certaines périodes, le prépaiement du séjour sera demandé (non
+            remboursable). La Société transmet au Client, par courrier
+            électronique et/ou Whatsapp la confirmation de la réservation
+            enregistrée. La réservation n'est ferme et définitive qu'après
+            réception de la confirmation adressée au Client par la Société. Les
+            tarifs, termes et conditions d'une réservation sont destinés à la
+            vente de chambres d'hôtel conformément à leur utilité première
+            (l'hébergement). L'hôtel se réserve le droit de modifier les tarifs,
+            les termes et conditions, ou tout simplement pour annuler la
+            réservation, si les chambres sont utilisées à d'autres fins telles
+            que des shootings photo, des tournages de film, showroom, ou
+            interview… Les annulations et/ou modifications des réservations
+            peuvent être autorisées selon le plan tarifaire choisi par le
+            Client, et précisés dans la confirmation de réservation. En cas de
+            non présentation du client à l'hôtel et en l'absence d'annulation,
+            les conditions indiquées sur la confirmation sont également
+            applicables (de la première nuit chargée à l'ensemble du séjour en
+            fonction de la saison). Seuls les chiens de 10kg maximum sont
+            acceptés, dans la limite d'un chien par chambre, moyennant un
+            supplément de 50€ TTC par nuit, par chien.
+          </p>
+          <h6>4.1.B. RÉSERVATIONS AVEC INTERMÉDIAIRES</h6>
+          <p>
+            Les mêmes dispositions s'appliquent qu'à l'article 4.1.a. Les tarifs
+            proposés aux Clients finaux par l'intermédiaire (agence) doivent
+            être équivalents aux tarifs affichés de l'hôtel. Dans le cas où le
+            tarif proposé par l'agence est différent du tarif affiché de la
+            Société, la Société se réserve le droit de terminer le partenariat.
+          </p>
+          <h5>4.2 : RÉSERVATIONS AU SEIN DES RESTAURANTS</h5>
+          <p>
+            Afin de réserver une table au restaurant le De Vinci, une empreinte
+            bancaire via une plateforme sécurisée est requise afin de garantir
+            la réservation. Veuillez noter que pour toute annulation à moins de
+            48 heures de la réservation, des frais d'annulations par couvert
+            seront appliqués. Le montant de ces frais est précisé par la Société
+            lors de la prise de réservation.
+          </p>
+          <h5>4.3 : RÉSERVATIONS AU SEIN DU SPA</h5>
+          <p>
+            Afin de réserver une prestation au Spa, une empreinte bancaire via
+            une plateforme sécurisée est demandée au moment de la confirmation.
+            Nous vous informons également que nous avons une politique
+            d'annulation de 6 heures. Ainsi, si vous souhaitez annuler ou
+            reporter votre rendez-vous, nous vous remercions de nous en avertir
+            au moins 6 heures avant le début du soin, pendant nos horaires
+            d'ouverture, afin d'éviter une facturation totale du soin.
+          </p>
+        </div>
+      </div>
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4>
+            <span>A</span>rticle 5 : garantie de réservation et modalités de paiement</h4>
+          <h5>5.1. : GARANTIE DE RÉSERVATION</h5>
+          <p>
+            Toute réservation individuelle n'est considérée comme ferme que dans
+            l'un des cas suivants :
+          </p>
+          <ol>
+            <li>
+              Un prépaiement total du séjour, par virement bancaire ou carte
+              de crédit, est effectué avant l'arrivée du client ;
+            </li>
+            <li>
+              La réception des informations de la carte de crédit valide du
+              client, la transmission se faisant par mode sécurisé.
+            </li>
+          </ol>
+          <p>
+            La réservation est ainsi accompagnée des coordonnées détaillées de
+            la carte de crédit de l'occupant de la chambre : nom du porteur
+            figurant sur la carte, numéro de carte de crédit valide, date
+            d'expiration et du cryptogramme ; un formulaire d'autorisation de
+            débit de sa carte sera alors adressé au client pour signature.*
+            L'hôtel se réserve le droit d'effectuer une pré-autorisation sur la
+            carte de crédit transmise pour le montant du séjour à tout moment
+            avant l'arrivée du client pour garantir et sécuriser la réservation
+          </p>
+          <h5>5.2. : MOYENS DE PAIEMENT</h5>
+          <p>
+            L'hôtel accepte les paiements en espèces (euros uniquement), par
+            carte de crédit ou par transfert bancaire (frais de transfert
+            intégralement à la charge du client). Les cartes de crédit acceptées
+            par l'hôtel sont les suivantes : Visa, Mastercard, American Express,
+            Diners Club et JCB. Les règlements par chèque bancaire ou chèque
+            vacances ne sont pas acceptés. Le règlement de l'ensemble des
+            prestations se fera directement auprès de l'hôtel (exception faite
+            pour les réservations pré-payables au moment de la réservation).
+          </p>
+          <h5>5.3. : POLITIQUE DE CONFIDENTIALITÉ - RGPD</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+            cupiditate quo asperiores laudantium, quidem officia adipisci sit,
+            corporis expedita ab eius commodi quod. Enim, voluptatum adipisci
+            harum laudantium odit quam optio dolore dignissimos maxime
+            perspiciatis aperiam eius eum quis! Alias.
+          </p>
+        </div>
+      </div>
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4><span>A</span>rticle 6 : mise à disposition des chambres</h4>
+          <p>
+            Les chambres sont mises à disposition à partir de 15 heures, le jour
+            de l'arrivée, et doivent être libérées au plus tard, à 12 heures le
+            jour du départ. Tout dépassement de ce délai peut entraîner une
+            facturation supplémentaire correspondant au montant d'une nuit au
+            tarif public affiché.
+          </p>
+        </div>
+      </div>
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4><span>A</span>rticle 7 : délogement</h4>
+          <p>
+            En cas de force majeure, d'événement exceptionnel ou de problèmes
+            techniques dans l'hôtel rendant impossible le séjour du client,
+            l'hôtel mettra tout en œuvre pour trouver un hébergement alternatif,
+            si possible dans un hôtel de même catégorie. Les frais de délogement
+            (supplément tarifaire) seront pris en charge par l'hôtel.
+          </p>
+        </div>
+      </div>
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4><span>A</span>rticle 8 : force majeure</h4>
+          <p>
+            La force majeure s'entend de tout évènement extérieur aux parties
+            présentant un caractère à la fois imprévisible et insurmontable qui
+            empêche soit le client, soit l'hôtelier d'assurer tout ou partie des
+            obligations prévues au contrat. Il en est notamment ainsi en cas de
+            grève, émeute ou crise sanitaire. Il est expressément convenu que la
+            force majeure suspend, pour les parties, l'exécution de leurs
+            obligations réciproques et que chaque partie supporte la charge des
+            frais qui en découlent. Les Clients supporteront notamment seuls les
+            frais supplémentaires qui pourraient être engagés pour permettre la
+            poursuite du voyage, à la suite de la survenance d'un cas de force
+            majeure.
+          </p>
+        </div>
+      </div>
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4><span>A</span>rticle 9 : réclamations</h4>
+          <p>
+            Toute réclamation doit être adressée à l'adresse suivante : HOTEL
+            CHAMBORD PARIS - 1 AVENUE MONTAIGNE 75008 PARIS - FRANCE, et ce dans
+            un délai de 15 jours suivant le départ du séjour faisant l'objet de
+            ladite réclamation. Passé ce délai, aucune réclamation ne pourra
+            être prise en compte.
+          </p>
+        </div>
+      </div>
+      <div class="container bg-1">
+        <div class="blocUn">
+          <h4><span>A</span>rticle 10 : informatique et libertés</h4>
+          <p>
+            En application de la loi 78-17, dite informatique et libertés, les
+            clients sont avertis que leur réservation fait l'objet d'un
+            traitement nominatif informatisé. Les Clients disposent d'un droit
+            d'accès et de rectification des données saisies, qui s'exerce auprès
+            du siège social HOTEL CHAMBORD PARIS - 1 AVENUE MONTAIGNE 75008
+            PARIS - FRANCE. Il est précisé que ces informations ne sont pas
+            communiquées à des tiers. La Société propose un accès internet en
+            wifi. Le Client s'engage à ce que les ressources informatiques mises
+            à sa disposition ne soit en aucune manière utilisées à des fins de
+            reproduction, de représentation, de mise à disposition ou de
+            communication au public d'œuvres ou d'objets protégés par un droit
+            d'auteur, par un droit voisin tels que des textes, images
+            photographies, œuvres musicales audiovisuelles, logiciels et jeux
+            vidéo, sans l'autorisation des titulaires des droits prévus aux
+            livre I et II du code de la propriété intellectuelle lorsque cette
+            autorisation est requise. L'Hôtel dispose d'un système de
+            vidéosurveillance au sein des parties communes du bâtiment .
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- FOOTER  -->
+    <footer class="containerBot bg-3">
+      <img
+        src="imgNew/LogoChambordGold.svg"
+        alt="logo de l'hôtel"
+        id="footerLogo"
+      />
+      <div id="reseaux">
+        <ul class="listeReseaux">
+          <li><img src="imgNew/005-instagram.svg" alt="logo instagram" /></li>
+          <li><img src="imgNew/001-youtube.svg" alt="logo youtube" /></li>
+          <li><img src="imgNew/002-pinterest.svg" alt="logo pinterest" /></li>
+          <li><img src="imgNew/004-facebook.svg" alt="logo facebook" /></li>
+          <li><img src="imgNew/003-twitter.svg" alt="logo twitter" /></li>
+        </ul>
+      </div>
+      <form id="formNewsletter">
+        <label for="name" style="color: #9f890d"
+          >INSCRIVEZ-VOUS A LA NEWSLETTER :</label
+        >
+        <input
+          type="email"
+          id="name"
+          name="name"
+          placeholder="Merci de saisir votre e-mail"
+        />
+        <br /><br />
+        <button type="submit">Envoyer</button>
+      </form>
+      <hr />
+      <div class="footerContainer">
+        <div id="footerLeft">
+          <p style="color: lightgray"><em>&copy;Erwann Bruneteau, 2023</em></p>
+          <ul>
+            <li><a href="mentionslegales.html">Mentions légales</a></li>
+            <li><a href="cgv.html">CGV</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Plan du site</a></li>
+          </ul>
+        </div>
+        <div id="footerRight">
+          <address style="color: lightgray">
+            1 avenue Montaigne 75008 Paris
+          </address>
+          <ul>
+            <li><a href="reservation.html">Accès</a></li>
+            <li><a href="contact.html">Nous contacter</a></li>
+            <li><a href="recrutement.html">Recrutement</a></li>
+            <li><a href="actuPresse.html">Presse</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="footerLangue">
+        <p style="color: lightgray">Changer de langue</p>
+        <div id="btnLangue">
+          <form action="#" name="langages">
+            <label>Pays</label>
+            <select>
+              <option value="">Francais</option>
+              <option value="">Anglais</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
