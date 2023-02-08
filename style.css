@@ -41,8 +41,38 @@ body {
   background-size: cover;
   border: 2px solid #9f890d;
 }
+.parallaxCuisineDeux {
+  background-image: url(imgNew/parallaxCuisineDeux.jpg);
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
+.parallaxSpa {
+  background-image: url(imgNew/parallaxSpa.jpg);
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
 .parallaxChambre {
   background-image: url(imgNew/parallaxChambre.jpg);
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
+.parallaxChambreDeux {
+  background-image: url(imgNew/parallaxChambreDeux.jpg);
   height: 400px;
   width: 100%;
   background-attachment: fixed;
