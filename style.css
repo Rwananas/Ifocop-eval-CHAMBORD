@@ -10,6 +10,68 @@ body {
   list-style-type: none;
 }
 
+/* PARALLAX  */
+.parallaxAccueil {
+  background-image: url(imgNew/parallaxParis.jpg);
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
+.parallaxAccueilDeux {
+  background-image: url(imgNew/parallaxAccueilDeux.jpg);
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
+.parallaxCuisine {
+  background-image: url(imgNew/parallaxCuisine.jpg);
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
+.parallaxChambre {
+  background-image: url(imgNew/parallaxChambre.jpg);
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
+.parallaxRecrutement {
+  background-image: url(imgNew/parallaxRecrutement.jpg);
+  height: 400px;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
+.parallaxActu {
+  background-image: url(imgNew/parallaxActu.jpg);
+  height: 400px;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
+
 /* FONTS  
 font-family: 'Courgette', cursive;
 font-family: 'Noto Sans', sans-serif;
@@ -156,6 +218,16 @@ ul {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 375px) {
+  .parallaxAccueil {
+    background-image: url(imgNew/parallaxParis.jpg);
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #9f890d;
+  }
   h1,
   h2,
   h3,
