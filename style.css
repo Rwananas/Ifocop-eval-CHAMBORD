@@ -153,6 +153,7 @@ ul {
   color: #9f890d;
   font-weight: bold;
   background-color: transparent;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 375px) {
   h1,
