@@ -101,6 +101,26 @@ body {
   background-size: cover;
   border: 2px solid #9f890d;
 }
+.parallaxPresentation {
+  background-image: url(imgNew/parallaxPresentation.jpg);
+  height: 400px;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
+.parallaxEvent {
+  background-image: url(imgNew/parallaxEvent.jpg);
+  height: 400px;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9f890d;
+}
 
 /* FONTS  
 font-family: 'Courgette', cursive;
@@ -248,16 +268,6 @@ ul {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 375px) {
-  .parallaxAccueil {
-    background-image: url(imgNew/parallaxParis.jpg);
-    height: 400px;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 2px solid #9f890d;
-  }
   h1,
   h2,
   h3,
@@ -532,6 +542,10 @@ ul {
     margin: 10px;
     text-align: center;
   }
+
+  /* h1, h2 {
+    font-size: 3rem;
+  } */
   .blocFlex {
     display: flex;
     justify-content: space-around;
