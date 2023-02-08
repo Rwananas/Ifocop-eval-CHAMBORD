@@ -1,3 +1,4 @@
+// SCRIPT FORMULAIRE
 const form = document.querySelector("#booking-form");
 const message = document.querySelector("#message");
 

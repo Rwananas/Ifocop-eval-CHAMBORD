@@ -21,7 +21,8 @@ h4 {
   font-family: "Courgette", cursive;
 }
 p,
-a {
+a,
+button {
   font-family: "Noto Sans", sans-serif;
 }
 .containerTop h1 {
@@ -147,6 +148,12 @@ ul {
   padding-left: 0;
 }
 
+#buttonMidi, #buttonAprem, #buttonSoir {
+  border: none;
+  color: #9f890d;
+  font-weight: bold;
+  background-color: transparent;
+}
 @media screen and (max-width: 375px) {
   h1,
   h2,

@@ -186,7 +186,9 @@
                 >
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link link-dark" href="actuPresse.html">Actualités</a>
+                <a class="nav-link link-dark" href="actuPresse.html"
+                  >Actualités</a
+                >
               </li>
               <li class="nav-item mx-3">
                 <a class="nav-link link-dark" href="event.html">Evènements</a>
@@ -259,7 +261,13 @@
             qui et in eum beatae quia assumenda sapiente tempora fuga aperiam
             deleniti.
           </p>
-          <a href="#" id="menuMidi">Menu</a>
+          <img
+            id="menuMidi"
+            src="imgNew/carteBrasserie.jpg"
+            alt="image du menu du midi"
+            style="display: none"
+          />
+          <button id="buttonMidi">Menu</button>
         </div>
         <div class="blocDeux">
           <img
@@ -283,7 +291,13 @@
             qui et in eum beatae quia assumenda sapiente tempora fuga aperiam
             deleniti.
           </p>
-          <a href="#" id="menuAprem">Menu</a>
+          <img
+            id="menuDegustation"
+            src="imgNew/carteDegustation.jpg"
+            alt="image du menu de l'après-midi"
+            style="display: none"
+          />
+          <button id="buttonAprem">Menu</button>
         </div>
         <div class="blocDeux">
           <img
@@ -307,7 +321,13 @@
             qui et in eum beatae quia assumenda sapiente tempora fuga aperiam
             deleniti.
           </p>
-          <a href="#" id="menuSoir">Menu</a>
+          <img
+            id="menuSoir"
+            src="imgNew/carteRestaurant.jpg"
+            alt="image du menu du soir"
+            style="display: none"
+          />
+          <button id="buttonSoir">Menu</button>
         </div>
         <div class="blocDeux">
           <img
@@ -344,8 +364,15 @@
         </ul>
       </div>
       <form id="formNewsletter">
-        <label for="name" style="color: #9f890d">INSCRIVEZ-VOUS A LA NEWSLETTER :</label>
-        <input type="email" id="name" name="name" placeholder="Merci de saisir votre e-mail" />
+        <label for="name" style="color: #9f890d"
+          >INSCRIVEZ-VOUS A LA NEWSLETTER :</label
+        >
+        <input
+          type="email"
+          id="name"
+          name="name"
+          placeholder="Merci de saisir votre e-mail"
+        />
         <br /><br />
         <button type="submit">Envoyer</button>
       </form>
@@ -386,11 +413,47 @@
         </div>
       </div>
     </footer>
-    <!-- script -->
+    <!-- SCRIPT MENUS -->
+    <!-- <script>
+      const buttonMidi = document.querySelector("#myButton");
+      const menuMidi = document.querySelector("#menuMidi");
+
+      buttonMidi.addEventListener("click", function () {
+        if (menuMidi.style.display === "block") {
+          menuMidi.style.display = "none";
+        } else {
+          menuMidi.style.display = "block";
+        }
+      });
+
+      const buttonAprem = document.querySelector("#buttonAprem");
+      const menuDegustation = document.querySelector("#menuDegustation");
+
+      buttonAprem.addEventListener("click", function () {
+        if (menuDegustation.style.display === "block") {
+          menuDegustation.style.display = "none";
+        } else {
+          menuDegustation.style.display = "block";
+        }
+      });
+
+      const buttonSoir = document.querySelector("#buttonSoir");
+      const menuSoir = document.querySelector("#menuSoir");
+
+      buttonSoir.addEventListener("click", function () {
+        if (menuSoir.style.display === "block") {
+          menuSoir.style.display = "none";
+        } else {
+          menuSoir.style.display = "block";
+        }
+      });
+    </script> -->
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="apprestau.js"></script>
   </body>
 </html>
