@@ -27,6 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Sans:ital,wght@0,300;1,300&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
     <header>
@@ -53,7 +54,6 @@
                   >Accueil</a
                 >
               </li>
-
               <li class="nav-item dropdown mx-3">
                 <a
                   class="nav-link dropdown-toggle link-dark"
@@ -208,7 +208,7 @@
     <main>
       <div class="containerTop">
         <div class="mediaTopPage">
-          <video width="100%" height="auto" autoplay loop muted>
+          <video width="100%" autoplay loop muted>
             <source src="vidNew/vidAccueilTop.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -425,8 +425,11 @@
             française.
           </p>
           <a href="event.html">
-            <img src="imgNew/calendrier.gif" alt="image animé d'un calendrier"
-          /></a>
+            <img
+              src="imgNew/calendrier.gif"
+              alt="image animé d'un calendrier"
+            />
+          </a>
         </div>
         <div class="blocAutre bg-2">
           <h4><span>A</span>vis</h4>
@@ -436,12 +439,13 @@
             nos visiteurs en proposant une qualité de services optimale et
             adaptée à leurs demandes.
           </p>
-          <a href="avis.html"
-            ><img
+          <a href="avis.html">
+            <img
               src="imgNew/pouces-vers-le-haut.gif"
               alt="image animé d'un pouce pointant vers le haut"
               loading="lazy"
-          /></a>
+            />
+          </a>
         </div>
         <div class="blocAutre bg-2">
           <h4><span>A</span>ctualités</h4>
@@ -451,8 +455,8 @@
             et plebiscité dans de nombreuses publications et revues de voyage
             spécialisées renommées.
           </p>
-          <a href="actuPresse.html"
-            ><img
+          <a href="actuPresse.html">
+            <img
               src="imgNew/un-journal.gif"
               alt="image animé d'un journal"
               loading="lazy"
@@ -467,26 +471,27 @@
             fournir une prestation irréprochable. Nos équipes sauront se mettre
             à votre disposition tout en respectant votre intimité.
           </p>
-          <a href="presentation.html"
-            ><img
+          <a href="presentation.html">
+            <img
               src="imgNew/chercher.gif"
               alt="image animé d'une loupe"
               loading="lazy"
-          /></a>
+            />
+          </a>
         </div>
       </div>
     </section>
     <!-- <hr /> -->
-
     <section id="reservation">
       <div class="containerReservation bg-4">
-        <button>
-          <strong><a href="reservation.html">Réserver</a></strong>
-        </button>
+        
+          <strong>
+            <a href="reservation.html"><button>Réserver</button></a>
+          </strong>
+        
       </div>
     </section>
     <section class="parallaxAccueilDeux container"></section>
-
     <!-- FOOTER  -->
     <footer class="containerBot bg-3">
       <img
@@ -496,11 +501,31 @@
       />
       <div id="reseaux">
         <ul class="listeReseaux">
-          <li><a href="https://www.instagram.com/" target="_blank"> <img src="imgNew/005-instagram.svg" alt="logo instagram" /></a></li>
-          <li><a href="https://www.youtube.com/" target="_blank"><img src="imgNew/001-youtube.svg" alt="logo youtube" /></a></li>
-          <li><a href="https://www.pinterest.fr/" target="_blank"><img src="imgNew/002-pinterest.svg" alt="logo pinterest" /></a></li>
-          <li><a href="https://fr-fr.facebook.com/" target="_blank"><img src="imgNew/004-facebook.svg" alt="logo facebook" /></a></li>
-          <li><a href="https://twitter.com/" target="_blank"><img src="imgNew/003-twitter.svg" alt="logo twitter" /></a></li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="imgNew/005-instagram.svg" alt="logo instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="imgNew/001-youtube.svg" alt="logo youtube" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.fr/" target="_blank">
+              <img src="imgNew/002-pinterest.svg" alt="logo pinterest" />
+            </a>
+          </li>
+          <li>
+            <a href="https://fr-fr.facebook.com/" target="_blank">
+              <img src="imgNew/004-facebook.svg" alt="logo facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/" target="_blank">
+              <img src="imgNew/003-twitter.svg" alt="logo twitter" />
+            </a>
+          </li>
         </ul>
       </div>
       <form id="formNewsletter">
@@ -513,18 +538,29 @@
           name="name"
           placeholder="Merci de saisir votre e-mail"
         />
-        <br /><br />
+        <br />
+        <br />
         <button type="submit">Envoyer</button>
       </form>
       <hr />
       <div class="footerContainer">
         <div id="footerLeft">
-          <p style="color: lightgray"><em>&copy;Erwann Bruneteau, 2023</em></p>
+          <p style="color: lightgray">
+            <em>&copy;Erwann Bruneteau, 2023</em>
+          </p>
           <ul>
-            <li><a href="mentionslegales.html">Mentions légales</a></li>
-            <li><a href="cgv.html">CGV</a></li>
-            <li><a href="#">Newsletter</a></li>
-            <li><a href="sitemap.html">Plan du site</a></li>
+            <li>
+              <a href="mentionslegales.html">Mentions légales</a>
+            </li>
+            <li>
+              <a href="cgv.html">CGV</a>
+            </li>
+            <li>
+              <a href="#">Newsletter</a>
+            </li>
+            <li>
+              <a href="sitemap.html">Plan du site</a>
+            </li>
           </ul>
         </div>
         <div id="footerRight">
@@ -532,10 +568,18 @@
             1 avenue Montaigne 75008 Paris
           </address>
           <ul>
-            <li><a href="reservation.html">Accès</a></li>
-            <li><a href="contact.html">Nous contacter</a></li>
-            <li><a href="recrutement.html">Recrutement</a></li>
-            <li><a href="actuPresse.html">Presse</a></li>
+            <li>
+              <a href="reservation.html">Accès</a>
+            </li>
+            <li>
+              <a href="contact.html">Nous contacter</a>
+            </li>
+            <li>
+              <a href="recrutement.html">Recrutement</a>
+            </li>
+            <li>
+              <a href="actuPresse.html">Presse</a>
+            </li>
           </ul>
         </div>
       </div>
